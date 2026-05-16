@@ -18,6 +18,13 @@ function App() {
         tags={["dbms", "sql", "college"]}
       />
 
+       <Card
+        title="DBMS"
+        content="Normalization removes redundancy in databases."
+        tags={["dbms", "sql", "college"]}
+      />
+
+
     </div>
   )
 }
