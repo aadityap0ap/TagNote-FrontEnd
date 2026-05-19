@@ -1,12 +1,13 @@
 import Buttons from "./components/Buttons"
 import Card from "./components/Card"
+import Sidebar from "./components/SideBar"
 import Signin from "./Pages/Signin"
 import Signup from "./Pages/SignUp"
 
 function App() {
   return (
     <div className="">
-      <Buttons text="Delete"/>
+      {/* <Buttons text="Delete"/>
        
       <Card
         title="React Notes"
@@ -24,8 +25,8 @@ function App() {
         title="DBMS"
         content="Normalization removes redundancy in databases."
         tags={["dbms", "sql", "college"]}
-      />
-
+      /> */}
+     <Sidebar/>
 
     </div>
     // <div>
