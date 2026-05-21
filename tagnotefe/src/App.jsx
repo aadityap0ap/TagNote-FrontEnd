@@ -1,5 +1,6 @@
 import Buttons from "./components/Buttons"
 import Card from "./components/Card"
+import CreateNote from "./components/CreateNote"
 import Sidebar from "./components/SideBar"
 import Topbar from "./components/Topbar"
 import Signin from "./Pages/Signin"
@@ -27,8 +28,9 @@ function App() {
         content="Normalization removes redundancy in databases."
         tags={["dbms", "sql", "college"]}
       /> */}
-    <Topbar/>
-    <Sidebar/>
+   
+    <CreateNote/>
+    
 
     </div>
     // <div>
